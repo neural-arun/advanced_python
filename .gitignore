@@ -1,0 +1,94 @@
+# =========================
+# Python / General
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# Virtual Environments
+# =========================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Environment Variables / Secrets (DO NOT PUSH)
+# =========================
+.env.*
+*.env
+secrets/
+config/secrets.*
+*.key
+*.pem
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Databases & Local Storage
+# =========================
+*.db
+*.sqlite3
+dump.rdb
+
+# =========================
+# Web Scraping / Selenium
+# =========================
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
+msedgedriver*
+
+# =========================
+# Scraped Data / Generated Files
+# =========================
+data/
+raw_data/
+output/
+downloads/
+tmp/
+temp/
+
+# =========================
+# Jupyter / Data Science
+# =========================
+.ipynb_checkpoints/
+.cache/
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
