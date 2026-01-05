@@ -7,3 +7,10 @@ friends_info = {
 
 }
 print(friends_info)  # This would give a dictionary with name and ages.
+
+
+
+guests = [('rolf', 25), ('adam', 28), ('jen', 24)]
+
+guests_as_a_dict = dict(guests)
+print(guests_as_a_dict)  # it is the best way to turn the above list into guests.
