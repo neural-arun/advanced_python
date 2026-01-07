@@ -1,0 +1,22 @@
+students = [
+    {"name": "Arun", "Physics": 88, "Chemistry": 91, "Biology": 85},
+    {"name": "Riya", "Physics": 72, "Chemistry": 75, "Biology": 78},
+    {"name": "Aman", "Physics": 84, "Chemistry": 86, "Biology": 89},
+    {"name": "Sneha", "Physics": 65, "Chemistry": 62, "Biology": 68},
+    {"name": "Rahul", "Physics": 74, "Chemistry": 70, "Biology": 73},
+    {"name": "Pooja", "Physics": 92, "Chemistry": 94, "Biology": 90},
+    {"name": "Kunal", "Physics": 48, "Chemistry": 52, "Biology": 50},
+    {"name": "Neha", "Physics": 76, "Chemistry": 79, "Biology": 81},
+    {"name": "Vikram", "Physics": 67, "Chemistry": 69, "Biology": 65},
+    {"name": "Anjali", "Physics": 90, "Chemistry": 88, "Biology": 92},
+    {"name": "Saurabh", "Physics": 73, "Chemistry": 75, "Biology": 71},
+    {"name": "Ishita", "Physics": 95, "Chemistry": 93, "Biology": 96},
+    {"name": "Rohit", "Physics": 61, "Chemistry": 64, "Biology": 66},
+    {"name": "Kavya", "Physics": 78, "Chemistry": 82, "Biology": 80},
+    {"name": "Mohit", "Physics": 55, "Chemistry": 58, "Biology": 54},
+    {"name": "Simran", "Physics": 89, "Chemistry": 87, "Biology": 91},
+    {"name": "Nikhil", "Physics": 62, "Chemistry": 60, "Biology": 63},
+    {"name": "Priya", "Physics": 77, "Chemistry": 79, "Biology": 75},
+    {"name": "Aditya", "Physics": 91, "Chemistry": 90, "Biology": 93},
+    {"name": "Mehul", "Physics": 68, "Chemistry": 66, "Biology": 70}
+]
