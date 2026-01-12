@@ -8,7 +8,6 @@ class Movies:
 
 my_movie = Movies('The Matrix', 'Wachowski')
 
-
 print(my_movie.movie)
 print(my_movie.director)
 print(my_movie.print_info())
