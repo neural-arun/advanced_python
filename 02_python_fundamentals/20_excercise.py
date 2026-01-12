@@ -4,3 +4,4 @@ def over_age(data, getter):
 user = { 'username': 'rolf123', 'age': '35' }
 
 print(over_age(user, lambda x: int(x['age'])))
+
