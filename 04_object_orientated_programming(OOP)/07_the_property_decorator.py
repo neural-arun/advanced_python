@@ -17,7 +17,7 @@ class WorkingStudent(Student):
         super().__init__(name,school)
         self.salary = salary
 
-    @property
+    @property  # Changes a method with no parameter to a property.
     def weakly_salary(self):
         return self.salary / 4
 
@@ -30,6 +30,7 @@ if arun.average() == None:
     print("No marks available")
 else:
     print(arun.average())
-print(arun.weakly_salary)
+print(arun.weakly_salary)  # if i had not put @property up there above fuctions i would have to
+# put a bracket after arun.salary like this arun.salary()
 print(arun.name)
 print(arun.school_name)
