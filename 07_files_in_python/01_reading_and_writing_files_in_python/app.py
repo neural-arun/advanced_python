@@ -23,5 +23,4 @@ with open(file_path,'w') as f:
     content = f.write(name) # Ye number of characters written return karta hai.
     f.write(name)   # this is the right way to write in the file.
 
-print(content)
-    
+print("Name saved successfully!")
