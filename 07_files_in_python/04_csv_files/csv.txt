@@ -1,0 +1,32 @@
+name,age,school,role
+Arun,22,shishu vidya mandir,developer
+Sarita,25,shishu vidya mandir,teacher
+Uday,28,shankar ji inter college,IPS
+name,age,school,role
+Nikhil,24,Vidyapath,Software Engineer
+Priya,26,Maharaja Surajmal Institute of Technology,Professor
+Manoj,30,Krishna College of Commerce,Manager
+Ravi,27,Saraswati Inter College,Engineer
+Deepa,29,Lakshmi Narayan College of Engineering and Technology,Assistant Professor
+Anuj,25,Vikram Sarabhai Institute of Technology,Analyst
+Sheetal,31,Netaji Subhas Institute of Technology,Teacher
+Vikas,28,Madhav Institute of Technology and Science,Boss
+Aarti,26,Dayanand Vidyapeeth College of Engineering,Architect
+Rohit,29,Jawaharlal Nehru Technological University,Consultant
+Mansi,30,National Institute of Technology,Salesperson
+Dinesh,27,Krishna Institute of Technology and Management,Developer
+Preeti,28,Maharaja Surajmal College of Engineering,Engineer
+Nitin,29,Dr. A.P.J. Abdul Kalam Technical University,Assistant Professor
+Ritu,31,Lakshmi Narayan College of Engineering and Technology,Boss
+Sandeep,27,Saraswati Inter College,Analyst
+Seema,28,Maharaja Surajmal Institute of Technology,Teacher
+Vikram,29,Krishna College of Commerce,Engineer
+Neha,30,Vidyapath,Architect
+Rishabh,27,Lakshmi Narayan College of Engineering and Technology,Boss
+Mandar,28,Dayanand Vidyapeeth College of Engineering,Consultant
+Sandeepa,31,Krishna Institute of Technology and Management,Salesperson
+Nisha,27,Maharaja Surajmal College of Engineering,Developer
+Rajesh,29,Madhav Institute of Technology and Science,Assistant Professor
+Seema,30,National Institute of Technology,Boss
+Vikas,27,Krishna College of Commerce,Analyst
+Neha,28,Saraswati Inter College,Teacher
