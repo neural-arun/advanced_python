@@ -4,6 +4,8 @@ class User:
 
 
 u1 = User("secret123")
-u1.password  =  "hacked"
+u1.password  =  "hacked" # aise koi bhi password change kar sakta hai.
 
 print(u1.password)
+
+
