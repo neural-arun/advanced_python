@@ -7,5 +7,5 @@ print(evens)
 
 # that was normal loop now it is turn of list comprehension.
 
-even_list = [even for even in range(21) if even % 2 == 0]
+even_list = [even for even in range(21) if even % 2 == 0]  # it is the same thing. but in one line.
 print(even_list)
