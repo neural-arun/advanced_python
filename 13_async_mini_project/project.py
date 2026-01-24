@@ -1,3 +1,5 @@
+# This project shows that async is faster than sync.
+
 import time
 import asyncio
 
