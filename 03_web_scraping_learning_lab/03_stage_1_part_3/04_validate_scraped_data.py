@@ -42,6 +42,19 @@ class BooksScraper:
     def parse_html(self,html):
         return BeautifulSoup(html,"lxml")
     
+    def is_valid_book(self,book):
+        """
+        here we have created a function which checks the book and returns if book is valid or not.
+        """
+        if not book.get("Price"):
+            return False
+        if not book.get("Title"):
+            return False
+        if not book.get("availability"):
+            return False
+        return True
+    
+
     def extract_records(self,soup):
         
         records = soup.find_all("article",class_="product_pod")
@@ -68,6 +81,7 @@ class BooksScraper:
                     availability = a.text.strip()
                     break
 
+            
 
             one_book_data = {
                 "Title": title,
@@ -76,6 +90,9 @@ class BooksScraper:
                 "Availability": availability
             }
 
+            if not self.is_valid_book(one_book_data):
+                continue
+            # here we are checking if the book is valid or not ?? if valid append if not valid skip.
             self.book_data.append(one_book_data)
     
     def extract_all_pages(self):
@@ -105,7 +122,7 @@ class BooksScraper:
             json.dump(self.book_data, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
-    books_scraper1 = BooksScraper("https://books.toscrape.com/")
+    books_scraper1 = BooksScraper("https://books.toscrape.com/catalogue/category/books/fiction_10/index.html")
     books_scraper1.extract_all_pages()
     books_scraper1.save_to_json()
     print("All book data saved to 'books_data.json'.")
